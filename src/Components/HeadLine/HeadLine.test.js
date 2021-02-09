@@ -10,28 +10,6 @@ const setUp = (props={}) => {
 
 describe('HeadLine Component', () => {
 
-    // describe('Checking PropTypes', () => {
-
-    //     it('Should not throw a warning', () => {
-
-    //         const expectedProps = {
-    //             header: 'Test Header',
-    //             desc: 'Test Desc',
-    //             tempArr: [{
-    //                 fName: 'Test fName',
-    //                 lName: 'Test lName',
-    //                 email: 'test@email.com',
-    //                 age: 23,
-    //                 onlineStatus: false
-    //             }]
-    //         };
-    //         const propsErr = checkProps(Headline, expectedProps)
-    //         expect(propsErr).toBeUndefined();
-
-    //     });
-
-    // });
-
     describe('Have props', () => {
 
         let wrapper;
