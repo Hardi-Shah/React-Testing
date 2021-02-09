@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Components/Header/Header';
+import Sum from './Components/Sum/Sum';
+import HeadLine from './Components/HeadLine/HeadLine';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      {/* <section className="main">
+      <Sum />
+      <section className="main">
           <HeadLine header="Posts" desc="Click the button to render posts!" />    
-        </section> */}
+        </section>
     </div>
   );
 }
